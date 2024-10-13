@@ -22,7 +22,7 @@ $(document).ready(function(){
 Countdown Clock
 ------------------------------ */
 function makeTimer() {
-	var endTime = new Date("01 June 2020 10:45:00 GMT+01:00");			
+	var endTime = new Date("01 January 2025 10:45:00 GMT+01:00");			
 	endTime = (Date.parse(endTime) / 1000);
 
 	var now = new Date();
